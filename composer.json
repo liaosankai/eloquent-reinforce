@@ -1,7 +1,7 @@
 {
   "name": "liaosankai/eloquent-reinforce",
   "description": "Laravel Eloquent Model Reinforce",
-  "keywords": ["ulid", "uuid", "identifier", "guid", "i18n", "carbon/carbon"],
+  "keywords": ["ulid", "uuid", "identifier", "guid", "i18n", "carbon"],
   "homepage": "https://github.com/liaosankai/eloquent-reinforce",
   "type": "library",
   "license": "MIT",
