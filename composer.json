@@ -4,6 +4,7 @@
   "keywords": ["ulid", "uuid", "identifier", "guid", "i18n", "carbon/carbon"],
   "homepage": "https://github.com/liaosankai/eloquent-reinforce",
   "type": "library",
+  "license": "MIT",
   "authors": [
     {
       "name": "Liao San Kai",
