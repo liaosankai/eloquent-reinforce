@@ -1,0 +1,45 @@
+{
+  "name": "liaosankai/eloquent-reinforce",
+  "description": "Laravel Eloquent Model Reinforce",
+  "keywords": ["ulid", "uuid", "identifier", "guid", "i18n", "carbon/carbon"],
+  "homepage": "https://github.com/liaosankai/eloquent-reinforce",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Liao San Kai",
+      "email": "liaosankai@gmail.com",
+      "homepage": "blog.liaosankai.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "robinvdvleuten/ulid": "^1.1",
+    "jenssegers/date": "^3.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~7.0",
+    "orchestra/testbench": "^3.5",
+    "orchestra/database": "^3.5",
+    "vlucas/phpdotenv": "~2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Liaosankai\\EloquentReinforce\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Liaosankai\\EloquentReinforce\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Liaosankai\\EloquentReinforce\\EloquentReinforceServiceProvider"
+      ],
+      "aliases": {
+      }
+    }
+  }
+}
